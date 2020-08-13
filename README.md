@@ -30,7 +30,7 @@ While exploring our data, these are some questions our team looked to address:
 
 ### The Model
 
-I started by creating a training and testing set with a train-test split method. Next, I tested multiple models and used the accuracy and f1 metric's in addition to comparing false positive rates to judge the abilities of our model. The models I tested were Logistic Regression, Decision Tree, Random Forest , Voting Classifier, and an XG-Boost. To solve for class imbalance I generally set the class hyperparameter to 'balanced'. I found that the XG-Boost produced the best results on the test set. The model's accuracy score was 95.29% and an F1 score of 46.51%.
+I started by creating a training and testing set with a train-test split method. Next, I tested multiple models and used the accuracy and f1 metric's in addition to comparing false positive rates to judge the abilities of our model. The models I tested were Logistic Regression, Decision Tree, Random Forest , Voting Classifier, and an XG-Boost. To solve for class imbalance I generally set the class hyperparameter to 'balanced'. I found that the XG-Boost produced the best results on the test set. The model's accuracy score was 95.29% and a 100%  Precision for the profitable class.
 
 ### Recommendations and Future of the Project
 
