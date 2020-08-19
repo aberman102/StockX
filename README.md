@@ -10,9 +10,9 @@ While exploring our data, these are some questions our team looked to address:
 
 - Does it matter what season a sneaker is released?
 
-- Is there a relationship between the type of shoe that is released and the price it retails at?
+- Is there a relationship between Twitter Hype and Profitability?
 
-- Does Nike Sneakers resale at a higher average price than Adidas Sneakers?
+- Do Nike Sneakers resale at a higher average price than Adidas Sneakers?
 
 ### The Approach
 
@@ -25,17 +25,17 @@ While exploring our data, these are some questions our team looked to address:
 ### Conclusions
 
 - Using an ANOVA Test I determined that there is no statistical difference between Season Released and Average Profit.
-- Using an ANOVA Test I determined that there is a statistical difference between Sneaker Category and Retail Price.
+- Using an ANOVA Test I determined that there is a statistical difference between Twitter Hype and Profitability.
 - Using a Two Tailed T-Test I determined that there a statisitcal difference between Average Profit for Nike and Adidas Sneakers.
 
 ### The Model
 
-I started by creating a training and testing set with a train-test split method. Next, I tested multiple models and used the accuracy and f1 metric's in addition to comparing false positive rates to judge the abilities of our model. The models I tested were Logistic Regression, Decision Tree, Random Forest , Voting Classifier, and an XG-Boost. To solve for class imbalance I generally set the class hyperparameter to 'balanced'. I found that the XG-Boost produced the best results on the test set. The model's accuracy score was 95.29% and a 100%  Precision for the profitable class.
+I started by creating a training and testing set with a train-test split method. Next, I tested multiple models and used the accuracy and the precision in predicting the profitable class to judge the abilities of our model. The models I tested were Logistic Regression, KNN, Decision Tree, Random Forest, Voting Classifier, and XG-Boost. I used SMOTE to solve for class imbalances in my data. I found that the XG-Boost produced the best results on the test set. The model predicted on the test with 98% Accuracy and had a 100% Precision when predicting the profitable class.
 
 ### Recommendations and Future of the Project
 
 - My first recommendation is to ignore the season in which a sneaker comes out, I have found that it isn't a significant factor in future resale values.
-- My second recommendation is to understand that different types of sneakers retail at different prices, this lets us know that you should prepare your future investment funds accordingly.
+- My second recommendation is to look into the traction a sneaker is getting on twitter. If you see that there isn't much traction, the sneaker is less likely to be profitable
 - my third recommendation is to understand that while Nike and Adidas are close competitors, there is a difference in average profits based off of the brand producing the sneaker.
 
 In the future I would like to build on this project to include Neural Network predictons. Additionally I would like to also build a linear model to predict the actual profit of a shoe before it is released in order to prioritize efforts to aquiring specific sneakers.
