@@ -41,4 +41,4 @@ I started by creating a training and testing set with a train-test split method.
 - My second recommendation is to look into the traction a sneaker is getting on twitter. If you see that there isn't much traction, the sneaker is less likely to be profitable
 - my third recommendation is to understand that while Nike and Adidas are close competitors, there is a difference in average profits based off of the brand producing the sneaker.
 
-In the future I would like to build on this project to include Neural Network predictons. Additionally I would like to also build a linear model to predict the actual profit of a shoe before it is released in order to prioritize efforts to aquiring specific sneakers.
+In the future I would like to build a front end to my model. Additionally, I would like to build a linear model to predict the actual profit of a shoe before it is released in order to prioritize efforts to aquiring specific sneakers.
