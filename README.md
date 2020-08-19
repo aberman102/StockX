@@ -25,8 +25,11 @@ While exploring our data, these are some questions our team looked to address:
 ### Conclusions
 
 - Using an ANOVA Test I determined that there is no statistical difference between Season Released and Average Profit.
+![](/Graphs/Season_vs_profit.png)
 - Using an ANOVA Test I determined that there is a statistical difference between Twitter Hype and Profitability.
+![](/Graphs/Twitter.png)
 - Using a Two Tailed T-Test I determined that there a statisitcal difference between Average Profit for Nike and Adidas Sneakers.
+![](/Graphs/Nike_vs_Adidas.png)
 
 ### The Model
 
