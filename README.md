@@ -2,7 +2,7 @@
 
 Flatiron Module 5 Project Avidan Berman 
 
-### Project Overview
+### Project Overview 
 
 Currently one of the few unregulated resale markets left, the Sneaker industry has been quietly booming. Thanks to Michael Jordan in the 1980's, we have seen a massive rise in the popularity of sneakers. This has opened the opportunity to make incredible amounts of money. In this project I take on the challenge of attempting to build a model that can predict the future value of sneakers before they come out.
 
