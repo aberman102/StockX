@@ -1,6 +1,6 @@
 # Sneaker Resale Value Predictive Model
 
-Flatiron Module 5 Project Avidan Berman
+Flatiron Module 5 Project Avidan Berman 
 
 ### Project Overview
 
